@@ -1,7 +1,3 @@
 let enterDigit = +prompt('Введите число');
+(enterDigit == 0) ? console.log(enterDigit): console.log(Math.abs(enterDigit));
 
-if (enterDigit == 0) {
-  console.log(enterDigit);
-} else {
-  console.log(Math.abs(enterDigit));
-}
